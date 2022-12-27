@@ -8,14 +8,6 @@ export class SubDiffCommand extends Command {
   }
 }
 
-export class SubListCommand extends Command {
-  static description = 'list';
-
-  async run() {
-    this.log('Running list...');
-  }
-}
-
 export default class Metaman extends Command {
   static description = 'Metaman to analyze the repositoy.';
 
